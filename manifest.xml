@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote  name="github"
+             fetch="https://github.com/" />
+
+    <default revision="master"
+             remote="github"
+             sync-j="4" />
+
+    <!-- Projects -->
+    <project name="crunchyjohn/crunchy-backrest-restore" remote="github" path="projects/crunchy-backrest-restore" />
+    <project name="crunchyjohn/crunchy-backup" remote="github" path="projects/crunchy-backup" />
+    <project name="crunchyjohn/crunchy-collect" remote="github" path="projects/crunchy-collect" />
+    <project name="crunchyjohn/crunchy-dba" remote="github" path="projects/crunchy-dba" />
+    <project name="crunchyjohn/crunchy-grafana" remote="github" path="projects/crunchy-grafana" />
+    <project name="crunchyjohn/crunchy-pgadmin4" remote="github" path="projects/crunchy-pgadmin4" />
+    <project name="crunchyjohn/crunchy-pgbadger" remote="github" path="projects/crunchy-pgbadger" />
+    <project name="crunchyjohn/crunchy-pgbouncer" remote="github" path="projects/crunchy-pgbouncer" />
+    <project name="crunchyjohn/crunchy-pgpool" remote="github" path="projects/crunchy-pgpool" />
+    <project name="crunchyjohn/crunchy-postage" remote="github" path="projects/crunchy-postage" />
+    <project name="crunchyjohn/crunchy-postgres" remote="github" path="projects/crunchy-postgres" />
+    <project name="crunchyjohn/crunchy-postgres-gis" remote="github" path="projects/crunchy-postgres-gis" />
+    <project name="crunchyjohn/crunchy-prometheus" remote="github" path="projects/crunchy-prometheus" />
+    <project name="crunchyjohn/crunchy-promgateway" remote="github" path="projects/crunchy-promgateway" />
+    <project name="crunchyjohn/crunchy-sim" remote="github" path="projects/crunchy-sim" />
+    <project name="crunchyjohn/crunchy-upgrade" remote="github" path="projects/crunchy-upgrade" />
+    <project name="crunchyjohn/crunchy-vacuum" remote="github" path="projects/crunchy-vacuum" />
+    <project name="crunchyjohn/crunchy-watch" remote="github" path="projects/crunchy-watch" />
+</manifest>
